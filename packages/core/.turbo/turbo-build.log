@@ -1,0 +1,16 @@
+
+> @itell/core@0.0.0 build /Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell/packages/core
+> vite build
+
+vite v4.3.2 building for production...
+transforming...
+✓ 17 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.es.js  58.70 kB │ gzip: 10.33 kB
+dist/index.cjs.js  20.71 kB │ gzip: 6.77 kB
+
+[vite:dts] Start generate declaration files...
+✓ built in 568ms
+[vite:dts] Declaration files built in 422ms.
+
