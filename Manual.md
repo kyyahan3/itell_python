@@ -1,11 +1,11 @@
-## Introduction
+# Introduction
 - Brief overview of the website and its purpose.
 
-## Website Features
+# Website Features
 - Functionality and features
 - Explain how to use each feature and any configuration options related to them
 
-## Configuration
+# Configuration
 ### Environment setup
 1. Install pnpm
 2. Run `pnpm install` to install the dependencies listed in the `package.json` file.
@@ -24,5 +24,5 @@
 1. How to customize the website's appearance, themes, or branding.
 2. Provide instructions for modifying templates, CSS, or other customization options.
 
-## Troubleshooting
+# Troubleshooting
 - Common issues: List frequently encountered problems and their solutions.
