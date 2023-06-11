@@ -13,12 +13,12 @@
 4. The website will then be available at http://localhost:3000 by default.
 
 ### Creat a new textbook
-1. Create your customized web page by adding a new folder (using the Next.js framework) in the `apps` folder. You can duplicate the `apps/example-think-python` folder and modify the configuration. 
+1. Create your customized web page by adding a new folder (using the Next.js framework) in the [`apps`](apps) folder. You can duplicate the `apps/example-think-python` folder and modify the configuration. 
 2. Rename the file to reflect the new page you're creating. 
 
 ### Adding content
 1. Use mdx files to add content. See the MDX writing tutorials here https://kabartolo.github.io/chicago-docs-demo/docs/mdx-guide/writing/.
-2. Create mdx files in the `apps/<textbook_name>/contents` folder based on your content archetecture. For example, `apps/example-think-python/contents/chapter-0.mdx` will be translated to a web page at http://localhost:3000/chapter-0, where the  `example-think-python` is `textbook_name` in this case. 
+2. Create mdx files in the `apps/<textbook_name>/content` folder based on your content archetecture. For example, [`apps/example-think-python/content/chapter-0.mdx`](apps/example-think-python/content/chapter-0.mdx) will be translated to a web page at http://localhost:3000/chapter-0, where the  `example-think-python` is `textbook_name` in this case. 
 
 ### Customization
 1. How to customize the website's appearance, themes, or branding.
