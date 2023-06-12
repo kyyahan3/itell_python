@@ -1,5 +1,5 @@
 # Introduction
-- Brief overview of the website and its purpose.
+- _Brief overview of the website and its purpose._
 
 # Website Features
 ## [Note](apps/example-think-python/src/components/note)
@@ -45,8 +45,8 @@
 2. Create mdx files in the `apps/<textbook_name>/content` folder based on your content archetecture. For example, [`apps/example-think-python/content/chapter-0.mdx`](apps/example-think-python/content/chapter-0.mdx) will be translated to a web page at http://localhost:3000/chapter-0, where the  `example-think-python` is `textbook_name` in this case. 
 
 ### Customization
-1. How to customize the website's appearance, themes, or branding.
-2. Provide instructions for modifying templates, CSS, or other customization options.
+1. _How to customize the website's appearance, themes, or branding._
+2. _Provide instructions for modifying templates, CSS, or other customization options._
 
 # Troubleshooting
-- Common issues: List frequently encountered problems and their solutions.
+- _Common issues: List frequently encountered problems and their solutions._
