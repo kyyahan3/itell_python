@@ -4,6 +4,9 @@
 # Website Features
 - Functionality and features
 - Explain how to use each feature and any configuration options related to them
+### [Note](apps/example-think-python/src/components/note)
+- This feature allows users to create and manage notes within the application's user interface, enabling users to create, organize, and customize their notes.
+- The [note cards](apps/example-think-python/src/components/note/note-card.tsx) provide a visual representation of the notes, while the [delete](apps/example-think-python/src/components/note/note-delete.tsx) functionality, [color picker](apps/example-think-python/src/components/note/note-color-picker.tsx), and [toolbar](apps/example-think-python/src/components/note/note-toolbar.tsx) enhance the overall note management experience within the application.
 
 # Configuration
 ### Environment setup
@@ -17,7 +20,7 @@
 2. Rename the file to reflect the new page you're creating. 
 
 ### Adding content
-1. Use mdx files to add content. See the MDX writing tutorials here https://kabartolo.github.io/chicago-docs-demo/docs/mdx-guide/writing/.
+1. Use mdx files to add content. See the [MDX writing tutorials here](https://kabartolo.github.io/chicago-docs-demo/docs/mdx-guide/writing/).
 2. Create mdx files in the `apps/<textbook_name>/content` folder based on your content archetecture. For example, [`apps/example-think-python/content/chapter-0.mdx`](apps/example-think-python/content/chapter-0.mdx) will be translated to a web page at http://localhost:3000/chapter-0, where the  `example-think-python` is `textbook_name` in this case. 
 
 ### Customization
