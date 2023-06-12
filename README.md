@@ -19,6 +19,12 @@
   <img src="https://github.com/yahan-ds/itell_python/assets/93264144/a0bfa77d-a283-4abd-88cd-51440f3102aa" alt="light image" title="light mode" width="whatever" height="135">
   <img src="https://github.com/yahan-ds/itell_python/assets/93264144/d2ec9808-ebdc-4eb3-b742-62b9ff9ba8ce" alt="dark image" title="dark mode" width="whatever" height="135">
 
+## [Summary](apps/example-think-python/src/components/summary)
+- This feature is created to facilitate a structured learning process for students or users. 
+- After completing a section, students can [input and submit](apps/example-think-python/src/components/summary/summary-input.tsx) their summaries of the material they've just studied. The submissions are then reviewed and evaluated by the instructors according to predetermined [criteria](apps/example-think-python/src/components/summary/summary-description.tsx), and [feedback](apps/example-think-python/src/components/summary/summary-feedback.tsx) is provided to the users based on their performance. Instructors have the flexibility to make summary submissions mandatory. If set as such, students must provide a summary of the current section before they can unlock and progress to the next section of the study material. The summary submission is [optional](apps/example-think-python/src/components/summary/index.tsx) for Chapter 0 of the [Principles of Macroeconomics](https://itell.vercel.app/).
+
+  ![image](https://github.com/yahan-ds/itell_python/assets/93264144/f9def80b-877a-46d4-b6e3-5a6676ef798e)
+
 ## [Dashboard](apps/example-think-python/src/components/dashboard)
 - This feature displaies a summary of the user/student's activities and statuses in a dashboard
 -
