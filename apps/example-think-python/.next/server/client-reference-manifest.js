@@ -747,7 +747,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/nav/textbook-scroll-progress.tsx",
         "name": "*",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -755,7 +755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/nav/textbook-scroll-progress.tsx",
         "name": "",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -763,7 +763,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/nav/textbook-scroll-progress.tsx",
         "name": "default",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -773,7 +773,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/theme/theme-toggle.tsx",
         "name": "*",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -781,7 +781,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/theme/theme-toggle.tsx",
         "name": "",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -789,7 +789,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/theme/theme-toggle.tsx",
         "name": "default",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -799,7 +799,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/ui-components.ts",
         "name": "*",
         "chunks": [
-          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+          "app/auth/layout:static/chunks/app/auth/layout.js"
         ],
         "async": false
       },
@@ -807,7 +807,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/ui-components.ts",
         "name": "",
         "chunks": [
-          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+          "app/auth/layout:static/chunks/app/auth/layout.js"
         ],
         "async": false
       }
@@ -817,7 +817,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/user-avatar.tsx",
         "name": "*",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -825,7 +825,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/user-avatar.tsx",
         "name": "",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       },
@@ -833,7 +833,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/user-avatar.tsx",
         "name": "default",
         "chunks": [
-          "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -843,7 +843,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+          "app/auth/layout:static/chunks/app/auth/layout.js"
         ],
         "async": false
       },
@@ -851,7 +851,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+          "app/auth/layout:static/chunks/app/auth/layout.js"
         ],
         "async": false
       },
@@ -859,7 +859,317 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
+          "app/auth/layout:static/chunks/app/auth/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/providers.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/providers.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/providers.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/providers.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/theme/theme-provider.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/theme/theme-provider.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/theme/theme-provider.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "ThemeProvider": {
+        "id": "(sc_client)/./src/components/theme/theme-provider.tsx",
+        "name": "ThemeProvider",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/toast.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/toast.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/toast.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/toast.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/trpc/trpc-provider.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/trpc/trpc-provider.tsx",
+        "name": "*",
+        "chunks": [
           "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/trpc/trpc-provider.tsx",
+        "name": "",
+        "chunks": [
+          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "TRPCProvider": {
+        "id": "(sc_client)/./src/trpc/trpc-provider.tsx",
+        "name": "TRPCProvider",
+        "chunks": [
+          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        ],
+        "async": false
+      },
+      "trpc": {
+        "id": "(sc_client)/./src/trpc/trpc-provider.tsx",
+        "name": "trpc",
+        "chunks": [
+          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/lab-icon.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/lab-icon.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/lab-icon.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/lab-icon.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "defaultHead": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "defaultHead",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "charSet": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "charSet",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "name": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "name",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "content": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "content",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "\"title\"": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "\"title\"",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "\"base\"": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "\"base\"",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "\"meta\"": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "\"meta\"",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "TODO(prateekbh@)": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "TODO(prateekbh@)",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "\"https": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "\"https",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "here": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "here",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "https": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "https",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "reduceComponentsToState": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "reduceComponentsToState",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "headManager": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "headManager",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "inAmpMode": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "inAmpMode",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "value": {
+        "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+        "name": "value",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
         ],
         "async": false
       }
@@ -1298,40 +1608,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/trpc/trpc-provider.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/trpc/trpc-provider.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/trpc/trpc-provider.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "TRPCProvider": {
-        "id": "(sc_client)/./src/trpc/trpc-provider.tsx",
-        "name": "TRPCProvider",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "trpc": {
-        "id": "(sc_client)/./src/trpc/trpc-provider.tsx",
-        "name": "trpc",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
       "*": {
         "id": "(sc_client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
@@ -1371,7 +1647,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/../../node_modules/.pnpm/react-wrap-balancer@0.4.1_react@18.2.0/node_modules/react-wrap-balancer/dist/index.js",
         "name": "*",
         "chunks": [
-          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+          "app/auth/layout:static/chunks/app/auth/layout.js"
         ],
         "async": false
       },
@@ -1379,7 +1655,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/../../node_modules/.pnpm/react-wrap-balancer@0.4.1_react@18.2.0/node_modules/react-wrap-balancer/dist/index.js",
         "name": "",
         "chunks": [
-          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+          "app/auth/layout:static/chunks/app/auth/layout.js"
         ],
         "async": false
       },
@@ -1387,85 +1663,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/../../node_modules/.pnpm/react-wrap-balancer@0.4.1_react@18.2.0/node_modules/react-wrap-balancer/dist/index.js",
         "name": "default",
         "chunks": [
-          "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/providers.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/providers.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/providers.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/providers.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/theme/theme-provider.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/theme/theme-provider.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/theme/theme-provider.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "ThemeProvider": {
-        "id": "(sc_client)/./src/components/theme/theme-provider.tsx",
-        "name": "ThemeProvider",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/toast.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/toast.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/toast.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/toast.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/auth/layout:static/chunks/app/auth/layout.js"
         ],
         "async": false
       }
@@ -1473,11 +1671,11 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/app/(chapter)/[...slug]/page": [
-      "static/css/app/(chapter)/[...slug]/page.css"
-    ],
     "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/app/(chapter)/[...slug]/page": [
+      "static/css/app/(chapter)/[...slug]/page.css"
     ]
   },
   "clientModules": {
@@ -3181,7 +3379,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/nav/textbook-scroll-progress.tsx",
       "name": "*",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3189,7 +3387,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/nav/textbook-scroll-progress.tsx",
       "name": "",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3197,7 +3395,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/nav/textbook-scroll-progress.tsx",
       "name": "default",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3205,7 +3403,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/theme/theme-toggle.tsx",
       "name": "*",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3213,7 +3411,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/theme/theme-toggle.tsx",
       "name": "",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3221,7 +3419,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/theme/theme-toggle.tsx",
       "name": "default",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3229,7 +3427,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/ui-components.ts",
       "name": "*",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3237,7 +3435,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/ui-components.ts",
       "name": "",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3245,7 +3443,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/user-avatar.tsx",
       "name": "*",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3253,7 +3451,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/user-avatar.tsx",
       "name": "",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3261,7 +3459,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/user-avatar.tsx",
       "name": "default",
       "chunks": [
-        "app/(chapter)/layout:static/chunks/app/(chapter)/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -3269,7 +3467,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3277,7 +3475,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3285,7 +3483,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3293,7 +3491,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3301,7 +3499,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3309,16 +3507,501 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
+        "app/auth/layout:static/chunks/app/auth/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/styles/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/packages/ui/dist/style.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Raleway\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"600\"],\"variable\":\"--font-sans\"}],\"variableName\":\"fontSans\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Space_Mono\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"700\"],\"variable\":\"--font-mono\"}],\"variableName\":\"fontMono\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/providers.tsx": {
+      "id": "(app-client)/./src/components/providers.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/providers.tsx#": {
+      "id": "(app-client)/./src/components/providers.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/providers.tsx#default": {
+      "id": "(app-client)/./src/components/providers.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/theme/theme-provider.tsx": {
+      "id": "(app-client)/./src/components/theme/theme-provider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/theme/theme-provider.tsx#": {
+      "id": "(app-client)/./src/components/theme/theme-provider.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/theme/theme-provider.tsx#ThemeProvider": {
+      "id": "(app-client)/./src/components/theme/theme-provider.tsx",
+      "name": "ThemeProvider",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/toast.tsx": {
+      "id": "(app-client)/./src/components/toast.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/toast.tsx#": {
+      "id": "(app-client)/./src/components/toast.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/toast.tsx#default": {
+      "id": "(app-client)/./src/components/toast.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/trpc/trpc-provider.tsx": {
+      "id": "(app-client)/./src/trpc/trpc-provider.tsx",
+      "name": "*",
+      "chunks": [
         "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
       ],
       "async": false
     },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/styles/prism-one-dark.css#": {
-      "id": "null",
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/trpc/trpc-provider.tsx#": {
+      "id": "(app-client)/./src/trpc/trpc-provider.tsx",
+      "name": "",
+      "chunks": [
+        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/trpc/trpc-provider.tsx#TRPCProvider": {
+      "id": "(app-client)/./src/trpc/trpc-provider.tsx",
+      "name": "TRPCProvider",
+      "chunks": [
+        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/trpc/trpc-provider.tsx#trpc": {
+      "id": "(app-client)/./src/trpc/trpc-provider.tsx",
+      "name": "trpc",
+      "chunks": [
+        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/lab-icon.tsx": {
+      "id": "(app-client)/./src/components/lab-icon.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/lab-icon.tsx#": {
+      "id": "(app-client)/./src/components/lab-icon.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/lab-icon.tsx#default": {
+      "id": "(app-client)/./src/components/lab-icon.tsx",
       "name": "default",
       "chunks": [
-        "static/css/app/(chapter)/[...slug]/page.css"
-      ]
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js#": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/image.js#": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js#default": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/client/image.js#default": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#default": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#default": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#charSet": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "charSet",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#charSet": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "charSet",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#name": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "name",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#name": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "name",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#content": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "content",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#content": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "content",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#\"title\"": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "\"title\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#\"title\"": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "\"title\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#\"base\"": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "\"base\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#\"base\"": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "\"base\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#\"meta\"": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "\"meta\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#\"meta\"": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "\"meta\"",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#TODO(prateekbh@)": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "TODO(prateekbh@)",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#TODO(prateekbh@)": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "TODO(prateekbh@)",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#\"https": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "\"https",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#\"https": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "\"https",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#here": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "here",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#here": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "here",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#https": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "https",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#https": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "https",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#reduceComponentsToState": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "reduceComponentsToState",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#reduceComponentsToState": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "reduceComponentsToState",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#headManager": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "headManager",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#headManager": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "headManager",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#inAmpMode": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "inAmpMode",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#inAmpMode": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "inAmpMode",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js#value": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "value",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/shared/lib/head.js#value": {
+      "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/head.js",
+      "name": "value",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
     },
     "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/auth/auth-form.tsx": {
       "id": "(app-client)/./src/components/auth/auth-form.tsx",
@@ -3351,6 +4034,13 @@ self.__RSC_MANIFEST={
         "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
       ],
       "async": false
+    },
+    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/styles/prism-one-dark.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/(chapter)/[...slug]/page.css"
+      ]
     },
     "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/chapter-auth-dialog.tsx": {
       "id": "(app-client)/./src/components/chapter-auth-dialog.tsx",
@@ -3728,38 +4418,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/trpc/trpc-provider.tsx": {
-      "id": "(app-client)/./src/trpc/trpc-provider.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/trpc/trpc-provider.tsx#": {
-      "id": "(app-client)/./src/trpc/trpc-provider.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/trpc/trpc-provider.tsx#TRPCProvider": {
-      "id": "(app-client)/./src/trpc/trpc-provider.tsx",
-      "name": "TRPCProvider",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/trpc/trpc-provider.tsx#trpc": {
-      "id": "(app-client)/./src/trpc/trpc-provider.tsx",
-      "name": "trpc",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
       "id": "(app-client)/../../node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
@@ -3828,7 +4486,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/react-wrap-balancer@0.4.1_react@18.2.0/node_modules/react-wrap-balancer/dist/index.js",
       "name": "*",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3836,7 +4494,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/react-wrap-balancer@0.4.1_react@18.2.0/node_modules/react-wrap-balancer/dist/index.js",
       "name": "",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     },
@@ -3844,107 +4502,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/../../node_modules/.pnpm/react-wrap-balancer@0.4.1_react@18.2.0/node_modules/react-wrap-balancer/dist/index.js",
       "name": "default",
       "chunks": [
-        "app/(chapter)/[...slug]/page:static/chunks/app/(chapter)/[...slug]/page.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/styles/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/packages/ui/dist/style.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Raleway\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"600\"],\"variable\":\"--font-sans\"}],\"variableName\":\"fontSans\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/node_modules/.pnpm/next@13.4.1_@opentelemetry+api@1.4.1_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Space_Mono\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"400\",\"700\"],\"variable\":\"--font-mono\"}],\"variableName\":\"fontMono\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/providers.tsx": {
-      "id": "(app-client)/./src/components/providers.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/providers.tsx#": {
-      "id": "(app-client)/./src/components/providers.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/providers.tsx#default": {
-      "id": "(app-client)/./src/components/providers.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/theme/theme-provider.tsx": {
-      "id": "(app-client)/./src/components/theme/theme-provider.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/theme/theme-provider.tsx#": {
-      "id": "(app-client)/./src/components/theme/theme-provider.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/theme/theme-provider.tsx#ThemeProvider": {
-      "id": "(app-client)/./src/components/theme/theme-provider.tsx",
-      "name": "ThemeProvider",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/toast.tsx": {
-      "id": "(app-client)/./src/components/toast.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/toast.tsx#": {
-      "id": "(app-client)/./src/components/toast.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/yahan/Library/CloudStorage/OneDrive-Vanderbilt/vandy/LearLab/ITell/itell_python/apps/example-think-python/src/components/toast.tsx#default": {
-      "id": "(app-client)/./src/components/toast.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/auth/layout:static/chunks/app/auth/layout.js"
       ],
       "async": false
     }
