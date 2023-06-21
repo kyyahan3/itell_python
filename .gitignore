@@ -1,4 +1,4 @@
 node_modules
 .DS_Store
-apps/example-think-python/.next/cache
 .cache
+.next
