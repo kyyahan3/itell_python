@@ -1,8 +1,6 @@
 import type { Config } from "tailwindcss";
-import sharedConfig from "@itell/tailwind-config";
-
+import tailwindPreset from "@itell/tailwind";
 export default {
-	...sharedConfig,
-	darkMode: ["class"],
+	presets: [tailwindPreset],
 	content: ["./src/**/*.{js,ts,jsx,tsx}", "./content/**/*.mdx"],
 } satisfies Config;

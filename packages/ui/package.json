@@ -28,17 +28,19 @@
   ],
   "scripts": {
     "build": "vite build",
-    "clean": "rm -rf .turbo"
+    "test": "vitest",
+    "clean": "rm -rf .turbo dist"
   },
   "dependencies": {
     "@itell/core": "workspace:^",
-    "@itell/tailwind-config": "workspace:^",
-    "@material-tailwind/react": "^1.4.2",
+    "@itell/tailwind": "workspace:^",
     "@radix-ui/react-accordion": "^1.1.1",
     "@radix-ui/react-alert-dialog": "^1.0.3",
     "@radix-ui/react-avatar": "^1.0.2",
     "@radix-ui/react-collapsible": "^1.0.2",
+    "@radix-ui/react-dialog": "^1.0.3",
     "@radix-ui/react-dropdown-menu": "^2.0.4",
+    "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-popover": "^1.0.5",
     "@radix-ui/react-select": "^1.2.1",
     "@radix-ui/react-slot": "^1.0.1",
@@ -55,7 +57,6 @@
     "react-wrap-balancer": "^0.4.1",
     "tailwind-merge": "^1.12.0",
     "tailwindcss": "^3.3.2",
-    "tailwindcss-animate": "^1.0.5",
     "use-immer": "^0.9.0"
   },
   "devDependencies": {
@@ -64,7 +65,8 @@
     "@vitejs/plugin-react": "^4.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.2",
-    "vite-plugin-dts": "^2.3.0"
+    "vite-plugin-dts": "^2.3.0",
+    "vitest": "^0.31.4"
   },
   "peerDependencies": {
     "next": "13.4.1",

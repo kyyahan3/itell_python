@@ -5,7 +5,7 @@ import NoteCard from "./note-card";
 import { trpc } from "@/trpc/trpc-provider";
 import { SectionLocation } from "@/types/location";
 import Spinner from "../spinner";
-import { useNotes } from "@/lib/hooks/notes";
+import { useNotes } from "@/lib/hooks/use-notes";
 import { useSession } from "next-auth/react";
 import { Typography } from "@itell/ui/server";
 import { Highlight, NoteCard as NoteCardType } from "@/types/note";
@@ -22,7 +22,7 @@ export default function NoteList({ location }: { location: SectionLocation }) {
 	} = useNotes();
 	const { data: session } = useSession();
 	const deleteNote = trpc.note.delete.useMutation();
-	const { data, isLoading } = trpc.note.getByLocation.useQuery(
+	const { data, isFetching } = trpc.note.getByLocation.useQuery(
 		{ location },
 		{ enabled: Boolean(session?.user) },
 	);
@@ -96,7 +96,7 @@ export default function NoteList({ location }: { location: SectionLocation }) {
 
 	return (
 		<div className="flex flex-col space-y-4 mt-4">
-			{isLoading ? (
+			{isFetching ? (
 				<div className="flex items-center">
 					<Spinner className="w-8 h-8" />
 					<Typography as="div" variant="small">

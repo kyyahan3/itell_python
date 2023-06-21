@@ -16,7 +16,7 @@ import Spinner from "../spinner";
 import { useImmerReducer } from "use-immer";
 import NoteColorPicker from "./note-color-picker";
 import { Button } from "../ui-components";
-import { useNotes } from "@/lib/hooks/notes";
+import { useNotes } from "@/lib/hooks/use-notes";
 
 interface Props extends NoteCard {
 	location: SectionLocation;
@@ -259,7 +259,12 @@ export default function ({
 										<p className="text-sm text-muted-foreground">unsaved</p>
 									)}
 									<div className="flex justify-end">
-										{id && !isLoading && <NoteDelete onDelete={handleDelete} />}
+										{id && !isLoading && (
+											<NoteDelete
+												onDelete={handleDelete}
+												onOpen={() => dispatch({ type: "toggle_delete_modal" })}
+											/>
+										)}
 										{editState.editing && (
 											<Button
 												disabled={isLoading}
@@ -268,7 +273,7 @@ export default function ({
 												onClick={handleSubmit}
 											>
 												{updateNote.isLoading || createNote.isLoading ? (
-													<Spinner className="w-5 h-5" />
+													<Spinner className="w-4 h-4" />
 												) : (
 													<ForwardIcon className="w-4 h-4" />
 												)}

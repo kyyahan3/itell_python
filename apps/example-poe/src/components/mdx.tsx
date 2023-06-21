@@ -2,28 +2,23 @@
 import { Info, Warning, Keyterm, Callout, Caption } from "@itell/ui/server";
 import { useMDXComponent } from "next-contentlayer/hooks";
 import {
-	CustomIFrame,
+	YoutubeVideo,
 	Accordion,
 	AccordionItem,
-	Tabs,
-	TabsHeader,
-	Tab,
-	TabPanel,
-	TabsBody,
 	Stepper,
 	StepperHeader,
 	Step,
 	StepperBody,
 	StepperPanel,
 	Image,
-	TextOverImage,
 	Link,
 } from "./ui-components";
-import { useFocusTime } from "@/lib/hooks/focus-time";
+import { Tabs, TabsHeader, Tab, TabPanel, TabsBody } from "./ui/tabs";
+import { TextOverImage } from "./ui/text-over-image";
 
 const MdxComponents = {
 	a: Link,
-	Iframe: CustomIFrame,
+	YoutubeVideo,
 	Image,
 	Accordion,
 	AccordionItem,
@@ -52,7 +47,6 @@ interface MdxProps {
 
 export function Mdx({ code }: MdxProps) {
 	const Component = useMDXComponent(code);
-	useFocusTime();
 
 	return (
 		<article
