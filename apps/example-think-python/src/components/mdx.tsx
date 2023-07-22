@@ -22,6 +22,7 @@ import {
 	Link,
 } from "./ui-components";
 import { Tabs, TabsHeader, Tab, TabPanel, TabsBody } from "./ui/tabs";
+import PythonConsole from './python-console'; // Import PythonConsole component
 
 const MdxComponents = {
 	a: Link,
@@ -48,6 +49,7 @@ const MdxComponents = {
 	Step,
 	StepperBody,
 	StepperPanel,
+    PythonConsole,
 };
 interface MdxProps {
 	code: string;
