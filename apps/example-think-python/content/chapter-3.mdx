@@ -89,6 +89,7 @@ If you know your trigonometry, you can check the previous result by comparing it
 >>> math.sqrt(2) / 2.0
 0.707106781187
 ```
+
 ## Composition
 <YoutubeVideo
     width="560" height="315" 
@@ -110,6 +111,7 @@ Almost anywhere you can put a value, you can put an arbitrary expression, with o
 >>> hours * 60 = minutes                 # wrong!
 SyntaxError: can't assign to operator
 ```
+
 ## Adding new functions
 So far, we have only been using the functions that come with Python, but it is also possible to add new functions.
 <YoutubeVideo
@@ -192,14 +194,6 @@ repeat_lyrics()
 This program contains two function definitions: `print_lyrics` and `repeat_lyrics`. Function definitions get executed just like other statements, but the effect is to create function objects. The statements inside the function do not get executed until the function is called, and the function definition generates no output.
 
 As you might expect, you have to create a function before you can execute it. In other words, the function definition has to be executed before the first time it is called.
-### Exercise 1  
-<Exercise>
-Move the last line of this program to the top, so the function call appears before the definitions. Run the program and see what error message you get.
-</Exercise>
-### Exercise 2 
-<Exercise> 
-Move the function call back to the bottom and move the definition of print_lyrics after the definition of repeat_lyrics. What happens when you run this program?
-</Exercise>
 
 ## Flow of execution
 <YoutubeVideo
@@ -421,76 +415,3 @@ Also, don't forget to save your program before you run it. Some development envi
 Debugging can take a long time if you keep running the same, incorrect, program over and over!
 
 Make sure that the code you are looking at is the code you are running. If you're not sure, put something like `print 'hello'` at the beginning of the program and run it again. If you don't see `hello`, you're not running the right program!
-
-## Exercises
-### Exercise 3  
-<Exercise> 
-Python provides a built-in function called len that returns the length of a string, so the value of `len('allen')` is 5.
-
-Write a function named `right_justify` that takes a string named s as a parameter and prints the string with enough leading spaces so that the last letter of the string is in column 70 of the display.
-```python
->>> right_justify('allen')
-```
-</Exercise>
-### Exercise 4
-<Exercise>
-A function object is a value you can assign to a variable or pass as an argument. For example, do_twice is a function that takes a function object as an argument and calls it twice:
-```python
-def do_twice(f):
-    f()
-    f()
-```
-Here's an example that uses `do_twice` to call a function named `print_spam` twice.
-
-```python
-def print_spam():
-    print 'spam'
-
-do_twice(print_spam)
-```
-1. Type this example into a script and test it.
-2. Modify do_twice so that it takes two arguments, a function object and a value, and calls the function twice, passing the value as an argument.
-3. Write a more general version of print_spam, called print_twice, that takes a string as a parameter and prints it twice.
-4. Use the modified version of do_twice to call print_twice twice, passing 'spam' as an argument.
-5. Define a new function called do_four that takes a function object and a value and calls the function four times, passing the value as a parameter. There should be only two statements in the body of this function, not four.
-Solution: http://thinkpython.com/code/do_four.py.
-</Exercise>
-
-### Exercise 5
-<Exercise>
-This exercise can be done using only the statements and other features we have learned so far.
-
-1. Write a function that draws a grid like the following:
-    ```
-    + -  -  -  - + -  -  -  - +
-    /             /             /
-    /             /             /
-    /             /             /
-    /             /             /
-    + -  -  -  - + -  -  -  - +
-    /             /             /
-    /             /             /
-    /             /             /
-    /             /             /
-    + -  -  -  - + -  -  -  - +
-    ```
-    Hint: to print more than one value on a line, you can print a comma-separated sequence:
-    ```python 
-    print '+', '-'
-    ```
-    If the sequence ends with a comma, Python leaves the line unfinished, so the value printed next appears on the same line.
-    ```python 
-    print '+', 
-    print '-'
-    ```
-    The output of these statements is '+ -'.
-
-    A print statement all by itself ends the current line and goes to the next line.
-<PythonConsole/>
-
-2. Write a function that draws a similar grid with four rows and four columns.
-
-Solution: http://thinkpython.com/code/grid.py. Credit: This exercise is based on an exercise in Oualline, Practical C Programming, Third Edition, O'Reilly Media, 1997.
-<PythonConsole/>
-
-</Exercise>
