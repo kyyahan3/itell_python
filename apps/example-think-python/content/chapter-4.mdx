@@ -1,11 +1,17 @@
 ---
-title: Case study: interface design
+title: Case study -- interface design
 ---
 Code examples from this chapter are available from http://thinkpython.com/code/polygon.py.
+
 ## TurtleWorld
 To accompany this book, I have written a package called Swampy. You can download Swampy from http://thinkpython.com/swampy; follow the instructions there to install Swampy on your system.
 
 A package is a collection of modules; one of the modules in Swampy is TurtleWorld, which provides a set of functions for drawing lines by steering turtles around the screen.
+<YoutubeVideo
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/Z1vISDOhC0k?start=50" 
+>
+</YoutubeVideo>
 
 If Swampy is installed as a package on your system, you can import TurtleWorld like this:
 ```python
@@ -52,6 +58,11 @@ When you run this program, you should see bob move east and then north, leaving 
 Now modify the program to draw a square. Don’t go on until you’ve got it working!
 
 ## Simple repetition
+<YoutubeVideo
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/Z1vISDOhC0k?start=224" 
+></YoutubeVideo>
+
 Chances are you wrote something like this (leaving out the code that creates TurtleWorld and waits for the user):
 ```python
 fd(bob, 100)
@@ -91,27 +102,15 @@ A for statement is sometimes called a loop because the flow of execution runs th
 
 This version is actually a little different from the previous square-drawing code because it makes another turn after drawing the last side of the square. The extra turn takes a little more time, but it simplifies the code if we do the same thing every time through the loop. This version also has the effect of leaving the turtle back in the starting position, facing in the starting direction.
 
-## Exercises
-The following is a series of exercises using TurtleWorld. They are meant to be fun, but they have a point, too. While you are working on them, think about what the point is.
-
-The following sections have solutions to the exercises, so don’t look until you have finished (or at least tried).
-
-1. Write a function called square that takes a parameter named t, which is a turtle. It should use the turtle to draw a square.
-Write a function call that passes bob as an argument to square, and then run the program again.
-
-2. Add another parameter, named length, to square. Modify the body so length of the sides is length, and then modify the function call to provide a second argument. Run the program again. Test your program with a range of values for length.
-3. The functions lt and rt make 90-degree turns by default, but you can provide a second argument that specifies the number of degrees. For example, lt(bob, 45) turns bob 45 degrees to the left.
-Make a copy of square and change the name to polygon. Add another parameter named n and modify the body so it draws an n-sided regular polygon. Hint: The exterior angles of an n-sided regular polygon are 360/n degrees.
-
-4. Write a function called circle that takes a turtle, t, and radius, r, as parameters and that draws an approximate circle by invoking polygon with an appropriate length and number of sides. Test your function with a range of values of r.
-Hint: figure out the circumference of the circle and make sure that length * n = circumference.
-
-Another hint: if bob is too slow for you, you can speed him up by changing bob.delay, which is the time between moves, in seconds. bob.delay = 0.01 ought to get him moving.
-
-5. Make a more general version of circle called arc that takes an additional parameter angle, which determines what fraction of a circle to draw. angle is in units of degrees, so when angle=360, arc should draw a complete circle.
-
 ## Encapsulation
-The first exercise asks you to put your square-drawing code into a function definition and then call the function, passing the turtle as a parameter. Here is a solution:
+<YoutubeVideo
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/Z1vISDOhC0k?start=411" 
+>
+The first exercise asks you to put your square-drawing code into a function definition and then call the function, passing the turtle as a parameter.
+</YoutubeVideo>
+
+Here is a solution:
 ```python
 def square(t):
     for i in range(4):
@@ -131,7 +130,14 @@ square(ray)
 Wrapping a piece of code up in a function is called **encapsulation**. One of the benefits of encapsulation is that it attaches a name to the code, which serves as a kind of documentation. Another advantage is that if you re-use the code, it is more concise to call a function twice than to copy and paste the body!
 
 ## Generalization
-The next step is to add a length parameter to square. Here is a solution:
+<YoutubeVideo
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/Z1vISDOhC0k?start=583" 
+>
+The next step is to add a length parameter to square. 
+</YoutubeVideo>
+
+Here is a solution:
 ```python
 def square(t, length):
     for i in range(4):
@@ -162,7 +168,13 @@ These are called **keyword arguments** because they include the parameter names 
 This syntax makes the program more readable. It is also a reminder about how arguments and parameters work: when you call a function, the arguments are assigned to the parameters.
 
 ## Interface design
+<YoutubeVideo
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/Z1vISDOhC0k?start=681" 
+>
 The next step is to write circle, which takes a radius, r, as a parameter. Here is a simple solution that uses polygon to draw a 50-sided polygon:
+</YoutubeVideo>
+
 ```python
 def circle(t, r):
     circumference = 2 * math.pi * r
@@ -191,6 +203,10 @@ def circle(t, r):
 Now the number of segments is (approximately) circumference/3, so the length of each segment is (approximately) 3, which is small enough that the circles look good, but big enough to be efficient, and appropriate for any size circle.
 
 ## Refactoring
+<YoutubeVideo
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/Z1vISDOhC0k?start=855" 
+></YoutubeVideo>
 When I wrote circle, I was able to re-use polygon because a many-sided polygon is a good approximation of a circle. But arc is not as cooperative; we can’t use polygon or circle to draw an arc.
 
 One alternative is to start with a copy of polygon and transform it into arc. The result might look like this:
@@ -244,7 +260,13 @@ A **development plan** is a process for writing programs. The process we used in
 This process has some drawbacks—we will see alternatives later—but it can be useful if you don’t know ahead of time how to divide the program into functions. This approach lets you design as you go along.
 
 ## Docstring
-A **docstring** is a string at the beginning of a function that explains the interface (“doc” is short for “documentation”). Here is an example:
+<YoutubeVideo
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/Z1vISDOhC0k?start=1068" 
+>
+A **docstring** is a string at the beginning of a function that explains the interface (“doc” is short for “documentation”). 
+</YoutubeVideo>
+Here is an example:
 ```python
 def polyline(t, n, length, angle):
     """Draws n line segments with the given length and
@@ -261,6 +283,10 @@ It is terse, but it contains the essential information someone would need to use
 Writing this kind of documentation is an important part of interface design. A well-designed interface should be simple to explain; if you are having a hard time explaining one of your functions, that might be a sign that the interface could be improved.
 
 ## Debugging
+<YoutubeVideo
+    width="560" height="315" 
+    src="https://www.youtube.com/embed/Z1vISDOhC0k?start=1168" 
+></YoutubeVideo>
 An interface is like a contract between a function and a caller. The caller agrees to provide certain parameters and the function agrees to do certain work.
 
 For example, polyline requires four arguments: t has to be a Turtle; n is the number of line segments, so it has to be an integer; length should be a positive number; and angle has to be a number, which is understood to be in degrees.

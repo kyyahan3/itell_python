@@ -73,6 +73,7 @@ The type of a variable is the type of the value it refers to.
 >>> type(pi)
 <type 'float'>
 ```
+
 ## Variable names and keywords
 Programmers generally choose names for their variables that are meaningful—they document what the variable is used for.
 
@@ -204,17 +205,6 @@ produces the output
 2
 ```
 The assignment statement produces no output.
-### Exercise 1
-<Exercise>
-Type the following statements in the Python interpreter to see what they do:
-```python
-5
-x = 5
-x + 1
-```
-Now put the same statements into a script and run it. What is the output? Modify the script by transforming each expression into a print statement and then run it again.
-<PythonConsole/>
-</Exercise>
 
 ## Comments
 As programs get bigger and more complicated, they get more difficult to read. Formal languages are dense, and it is often difficult to look at a piece of code and figure out what it is doing, or why.
@@ -266,36 +256,6 @@ At this point the most likely cause of a semantic error is the order of operatio
 ```
 But the division happens first, so you would get π / 2, which is not the same thing! There is no way for Python to know what you meant to write, so in this case you don’t get an error message; you just get the wrong answer.
 
-## Exercises
-### Exercise 2  
-<Exercise>
-Assume that we execute the following assignment statements:
-```python
-width = 17
-height = 12.0
-delimiter = '.'
-```
-For each of the following expressions, write the value of the expression and the type (of the value of the expression).
-```python
-1. width/2
-2. width/2.0
-3. height/3
-4. 1 + 2 * 5
-5. delimiter * 5
-```
-Use the Python interpreter to check your answers.
-
-</Exercise>
-
-### Exercise 3 
-<Exercise>
-Practice using the Python interpreter as a calculator:
-1. The volume of a sphere with radius r is 4/3 π r<sup>3</sup>. What is the volume of a sphere with radius 5? Hint: 392.7 is wrong!
-2. Suppose the cover price of a book is \$24.95, but bookstores get a 40% discount. Shipping costs \$3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies?
-3. If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), then 3 miles at tempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?
-
-
-</Exercise>
 
 
 
